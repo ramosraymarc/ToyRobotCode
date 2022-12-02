@@ -10,7 +10,7 @@ however further valid movement commands must still be allowed.
 
 # Commands and Constraints
 - ``PLACE`` - This will place and set the initial position of the robot. 
-  - ``PLACE X, Y, Direction: North,East,South,West,`` e.g. ``Place 0,0,North``
+  - ``PLACE X, Y, Direction: North,East,South,West,`` e.g. ``Place 0,0,North``.
 - ``MOVE`` - This will move the toy robot one unit forward in the direction it is currently facing.
 - ``LEFT`` - This will rotate the robot 90 degrees to the left without changing the position of the robot.
 - ``RIGHT`` - This will rotate the robot 90 degrees to the right without changing the position of the robot.
@@ -21,7 +21,9 @@ The toy robot must not fall off the table during movement. This also includes th
 move that would cause the robot to fall must be ignored.
 
 # How to run the Application
-- Clone or Download the repository
-- Open with Visual Studio
-- Open ToyRobotCode.sln solution
-- Start the Console Application Project ``ToyRobotCode``
+- Clone or Download the repository.
+- Open with Visual Studio.
+- Open ToyRobotCode.sln solution.
+- Start the Console Application Project ``ToyRobotCode``.
+- Unit tests are all passed and located in ``ToyRobotCode.Test``.
+- ``ToyRobotCode.Services`` is a class library that contains all the building blocks to run and process the toy robot.
